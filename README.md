@@ -1,3 +1,10 @@
+# Lite-FPN for Keypoint-based Monocular 3D Object Detection
+
+<img src="figures/Lite-FPN.png" alt="vis2" style="zoom:30%" />
+
+This is the official implementation of our manuscript [**Lite-FPN for Keypoint-based Monocular 3D Object Detection**](https://arxiv.org/pdf/2105.00268.pdf).
+
+
 ## Requirements
 All codes are tested under the following environment:
 *   Ubuntu 18.04
@@ -21,7 +28,7 @@ kitti
      └──ImageSets
 ```  
 
-## Setup
+## Install
 1. We use `conda` to manage the environment:
 ```
 conda create -n Lite-FPN python=3.7
@@ -63,7 +70,22 @@ Evaluation :
 python tools/evaluate_script.py --config-file "configs/smoke_gn_vector.yaml"
 ```
 
-# Acknowledgement
+## Citation
+If you find our work useful in your research, please consider citing:
 
-Many thanks to these excellent open source projects:
-- [SMOKE](https://github.com/lzccccc/SMOKE) 
+```latex
+@article{Yang2021LiteFPNFK,
+  title={Lite-FPN for Keypoint-based Monocular 3D Object Detection},
+  author={Lei Yang and Xinyu Zhang and Li Wang and Minghan Zhu and Jun Li},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2105.00268}
+}
+```
+
+## Acknowledgements
+Many thanks to these excellent open source projects: [SMOKE](https://github.com/lzccccc/SMOKE) 
+
+## Contact
+
+If you have any problem with this code, please feel free to contact **yanglei20@mails.tsinghua.edu.cn**.
